@@ -9,7 +9,8 @@ public class Basics {
 //          String name = sc.next(); //  Only take First word of the Entered String
 //          System.out.println(name);
             String full_name = sc.nextLine(); //Take full string
-            System.out.print(full_name);
+            System.out.println(full_name);
+            System.out.println(full_name.length());
         }
     }
 }
