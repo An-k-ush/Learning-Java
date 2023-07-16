@@ -8,6 +8,6 @@ public class Substring {
     }
     public static void main(String args[]) {
         String str = "Hello World";
-        substr(str, 2, 6);
+        str.substring(0, 4);
     }
 }
