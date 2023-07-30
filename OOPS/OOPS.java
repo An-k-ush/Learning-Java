@@ -14,9 +14,9 @@ public class OOPS {
 class BankAccount {
     public String name;
     private String passwd;
-    void changepasswd(String passwd) {
+    void changepasswd(String passwd) {                  // This is a Setter
         this.passwd = passwd;                // this is used to access the object
-    }
+    }                                         // We havent made a getter for this which means we cannot access its value outside this class
 }
 
 class Pen {
@@ -27,5 +27,8 @@ class Pen {
     }
     void newtip(int settip) {                          // This is also a Setter
         tip = settip;
+    }
+    String getcolor() {
+        return this.color;
     }
 }
