@@ -10,10 +10,10 @@ public class OOPS {
 class Pen {
     String color;
     int tip;
-    void newcolor(String setcolor) {
+    void newcolor(String setcolor) {                   // This is a Setter
         color = setcolor;
     }
-    void newtip(int settip) {
+    void newtip(int settip) {                          // This is also a Setter
         tip = settip;
     }
 }
