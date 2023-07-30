@@ -3,11 +3,12 @@ public class OOPS {
         Pen p1 = new Pen();
         p1.newcolor("Black");
         System.out.println(p1.color);
-        System.out.print(p1.tip);
+        System.out.println(p1.tip);
         BankAccount myAcc = new BankAccount();
         myAcc.name = "Ankush";
 //      myAcc.passwd = "9334af"; // This is not possible as it is private. To access this you need to set up Getters and Setters
         myAcc.changepasswd("9334af");
+        System.out.print(p1.getcolor());
     }
 }
 
